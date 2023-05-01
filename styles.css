@@ -1,0 +1,148 @@
+html {
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+header a {
+    margin: 10px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 100px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 3px rgb(66, 66, 66);
+}
+
+button:hover {
+    background-color: #316ed0;
+}
+
+.hero-left, .hero-right {
+    flex: 1 1 300px;
+}
+
+.section-1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.section-1 h1 {
+    font-size: 36px;
+    font-family: 900;
+    color: #1f2937;
+}
+
+.section-1-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px;
+}
+
+.icon {
+    flex: 1 1 20%;
+}
+
+.section-1-icons img {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.block {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.block > div {
+    flex: 1 1 200px;
+}
+
+.block > button {
+    flex: 0 0 100px;
+    border: 2px solid white;
+    align-self: center;
+}
+
+footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
